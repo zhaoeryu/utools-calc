@@ -1,0 +1,18 @@
+{
+    "preload": "preload.js",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "calc",
+            "explain": "计算器",
+            "cmds": [
+                "calc","计算器",
+                {
+                    "type": "regex",
+                    "label": "计算器",
+                    "match": "/^(?:\\(*-?\\d+(\\.\\d+)?\\)* ?[+\\-*/] ?)+\\(*-?\\d+(\\.\\d+)?\\)*$/"
+                }
+            ]
+        }
+    ]
+}
